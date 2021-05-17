@@ -21,7 +21,6 @@ const receta = {
 // Ingredientes que tiene Ema en stock
 let Ema = {
     huevos: 5,
-    barra_chocolate: 1,
     harina_kg: 0,
     azucar_cda: 5
 }
