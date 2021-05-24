@@ -6,10 +6,10 @@ la misma frase pero en orden inverso.
 function invertirFrase(n) {
     let frase = "";
     for (let i = n.length - 1; i >= 0; i--) {
-    frase += n[i];
+        frase += n[i];
     }
     return frase;
-   }
+}
 
 const partialReverse = value => {
     let aux_word = ''
@@ -25,9 +25,9 @@ const partialReverse = value => {
     return new_value
 }
 
-frase = 'Hola como andas?'
-console.log(invertirFrase(frase))
-console.log(partialReverse(frase)) // andas? como Hola
+const frasesita = 'Hola como andas?'
+console.log(invertirFrase(frasesita))
+console.log(partialReverse(frasesita)) // andas? como Hola
 
 // Hola como andas
 // sadna omoc aloH
